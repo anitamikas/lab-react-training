@@ -4,7 +4,7 @@ import React from 'react';
 function IdCard(props) {
   let year = props.birth.getFullYear()
   let day = props.birth.getDate()
-  var weekday = new Array(7);
+  let weekday = new Array(7);
   weekday[0] = "Sunday";
   weekday[1] = "Monday";
   weekday[2] = "Tuesday";
